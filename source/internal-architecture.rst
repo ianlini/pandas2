@@ -557,7 +557,7 @@ Our goal in replacing BlockManager would be to achieve:
 * Better user control over memory use and layout
 * Improved microperformance
 
-I believe we can do this, but it's will require a significant inversion of the
+I believe we can do this, but it will require a significant inversion of the
 internal code architecture to involve a more native code and less interpreted
 Python. For example, it will be difficult or impossible to achieve comparable
 performance in row-oriented operations (on consolidated DataFrame objects) with
